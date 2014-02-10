@@ -1,0 +1,21 @@
+body {
+	color: rgb(204, 204, 204);
+}
+
+.view-region-main-container, .site-header, .col-left, .reader-nav .reader-nav-item {
+	background-color: #25292C !important;
+}
+
+.feed-stream-header {
+	border-color: #000 !important;
+}
+
+.feeditem-list {
+	border-top: 1px solid #000 !important;
+}
+
+.dr-feed-selected>.dr-label, .dr-feed-selected>.dr-label:hover {
+    background-color: rgba(24, 24, 24, 0.901961) !important;
+    border-top-color: rgba(24, 24, 24, 0.901961) !important;
+    border-bottom-color: rgba(24, 24, 24, 0.901961) !important;
+}
