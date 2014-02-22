@@ -6,11 +6,11 @@
   "version": "0.1",
 
   "permissions": [
-    "http://digg.com/reader/"
+    "http://digg.com/reader"
   ],
   "content_scripts": [
     {
-      "matches": ["http://digg.com/reader/*"],
+      "matches": ["http://digg.com/reader*"],
       "css" : ["dark.css"]
     }
   ]
