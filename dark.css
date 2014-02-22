@@ -1,21 +1,48 @@
 body {
-	color: rgb(204, 204, 204);
+	color: rgb(204, 204, 204) !important;
+    background-color: #454545 !important;
 }
 
-.view-region-main-container, .site-header, .col-left, .reader-nav .reader-nav-item {
-	background-color: #25292C !important;
+.view-region-main-container, .site-header, .col-left, .reader-nav .reader-nav-item, .view-add {
+	background-color: #212121 !important;
 }
 
-.feed-stream-header {
-	border-color: #000 !important;
+.site-header-container {
+    background-color: #454545 !important;
+}
+
+.view-add {
+	border: 0 !important;
+}
+
+.feed-stream-header, .col-left {
+	border-color: #454545 !important;
+}
+
+.view-add>div, .boxshadow .site-header-container {
+    -webkit-box-shadow: inset 0 1px 0 0 #454545 !important;
+    box-shadow: inset 0 1px 0 0 #454545 !important;
 }
 
 .feeditem-list {
-	border-top: 1px solid #000 !important;
+	border-top: 1px solid #454545 !important;
 }
 
 .dr-feed-selected>.dr-label, .dr-feed-selected>.dr-label:hover {
     background-color: rgba(24, 24, 24, 0.901961) !important;
     border-top-color: rgba(24, 24, 24, 0.901961) !important;
     border-bottom-color: rgba(24, 24, 24, 0.901961) !important;
+}
+
+.reader-nav .reader-nav-item {
+	border-left: 1px solid #454545 !important;
+}
+
+#btn-view-all-items, .dr-add-btn {
+	border-color: #454545 !important;
+}
+
+.dr-label {
+    text-shadow: none !important;
+    color: #CCCCCC !important;
 }
