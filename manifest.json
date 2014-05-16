@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Digg Reader Dark",
-  "description": "Dark theme for digg reader",
+  "description": "Dark theme for Digg Reader",
   "version": "0.1",
 
   "permissions": [
