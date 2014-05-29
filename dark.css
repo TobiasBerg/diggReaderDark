@@ -18,7 +18,7 @@ body {
 
 .site-header-container, .no-touch .feeditem-list:hover, .dr-label:hover, .feed-item-focused .feeditem-feedtitle,
 article.expanded .feeditem-feedtitle, .feed-item-focused .feeditem-list-content,
-article.expanded .feeditem-list-content {
+article.expanded .feeditem-list-content, .discovery-feed-item-controls .btn-add-feed {
     background-color: #454545 !important;
 }
 
@@ -34,7 +34,7 @@ article.expanded .feeditem-list-content {
     border-color: #777 !important;
 }
 
-.feeditem-list {
+.feeditem-list, .discovery-feed-item {
 	border-top: 1px solid #454545 !important;
 }
 
@@ -70,4 +70,13 @@ input {
 
 .discovery-search-header {
     border-bottom: 2px solid #454545 !important;
+}
+
+.btn-action {
+    border: 1px solid #454545 !important;
+}
+
+.discovery-feed-item-controls .btn-add-feed:hover {
+    background-color: #0093cc !important;
+    border-color: #0093cc !important;
 }
