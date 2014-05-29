@@ -56,3 +56,14 @@ article.expanded .feeditem-list-content {
 #site-header-logo {
     background-image: none !important;
 }
+
+.discovery-search-form-wrap form {
+    background-color: #454545 !important;
+    border: 1px solid #212121 !important;
+    -webkit-box-shadow: inset 0 1px 0 0 #454545 !important;
+    box-shadow: inset 0 1px 0 0 #454545 !important;
+}
+
+input {
+    color: #ccc !important;
+}
