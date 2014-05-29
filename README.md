@@ -1,0 +1,1 @@
+# Digg reader dark theme Chrome extension
