@@ -8,8 +8,16 @@ body {
     color: #CCCCCC !important;
 }
 
-.feeditem-list.expanded .story-detail-view-container .story-title a {
+.feeditem-list.expanded .story-detail-view-container .story-title a, .feed-title a {
     color: #0093cc !important;
+}
+
+.feed-title a {
+    border-color: #0093cc !important;
+}
+
+.feed-title a:hover {
+    border-color: #fff !important;
 }
 
 .view-region-main-container, .site-header, .col-left, .reader-nav .reader-nav-item, .view-add, .feeditem-list.expanded .story-detail-view-container {
