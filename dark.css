@@ -32,7 +32,7 @@ body {
 	background-color: #212121 !important;
 }
 
-.site-header-container, .no-touch .feeditem-list:hover, .dr-label:hover, .feed-item-focused .feeditem-feedtitle,
+.site-header-container, .no-touch .feeditem-list:hover, .no-touch .feeditem-list.expanded, .dr-label:hover, .feed-item-focused .feeditem-feedtitle,
 article.expanded .feeditem-feedtitle, .feed-item-focused .feeditem-list-content,
 article.expanded .feeditem-list-content, .discovery-feed-item-controls .btn-add-feed {
     background-color: #454545 !important;
