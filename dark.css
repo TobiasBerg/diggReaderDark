@@ -20,6 +20,14 @@ body {
     border-color: #fff !important;
 }
 
+.feeditem-feedtitle-src, .feeditem-list .feeditem-fuzzytime a {
+    border-bottom: 1px dotted #212121 !important;
+}
+
+.feeditem-feedtitle-src:hover, .feeditem-fuzzytime a:hover {
+    border-bottom: 1px dotted #CCCCCC !important;
+}
+
 .view-region-main-container, .site-header, .col-left, .reader-nav .reader-nav-item, .view-add, .feeditem-list.expanded .story-detail-view-container {
 	background-color: #212121 !important;
 }
@@ -38,7 +46,7 @@ article.expanded .feeditem-list-content, .discovery-feed-item-controls .btn-add-
 	border-color: #454545 !important;
 }
 
-.btn-toggle-read-state, .feeditem-list .feeditem-fuzzytime a {
+.btn-toggle-read-state, .feeditem-list {
     border-color: #777 !important;
 }
 
