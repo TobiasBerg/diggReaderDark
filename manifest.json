@@ -3,7 +3,7 @@
 
   "name": "Digg Reader Dark",
   "description": "Dark theme for Digg Reader",
-  "version": "0.2",
+  "version": "0.3",
 
   "permissions": [
     "http://digg.com/reader"
