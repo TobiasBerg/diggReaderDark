@@ -84,6 +84,10 @@ input {
     color: #ccc !important;
 }
 
+.tooltip-list-input input {
+    color: #444 !important;
+}
+
 .discovery-search-header {
     border-bottom: 2px solid #454545 !important;
 }
