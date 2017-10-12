@@ -100,3 +100,35 @@ input {
     background-color: #0093cc !important;
     border-color: #0093cc !important;
 }
+
+/* Edit feed modal */
+.modal-backdrop {
+    background-color: #444 !important;
+}
+
+.modal .modal-header, .modal--v2__header, .modal--v2__footer, .modal--v2__body {
+    background: #454545 !important;
+}
+
+.modal .modal-header, .modal--v2__header {
+    border-bottom: 1px solid #777 !important;
+}
+
+.modal--v2__label {
+    color: #CCCCCC !important;
+}
+
+.modal--v2__container .feed-url-label {
+    color: #ababab !important;
+}
+
+.modal--v2__container input[type="text"] {
+    background-color: #565656 !important;
+    border: 1px solid #6b6b6b !important;
+}
+
+.modal .btn-action {
+    background-color: #565656 !important;
+}
+
+/* End Edit feed modal */
