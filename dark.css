@@ -131,4 +131,38 @@ input {
     background-color: #565656 !important;
 }
 
-/* End Edit feed modal */
+/* Add feed modal */
+.view-add .show-tooltip .tooltip-subscription-add {
+    background-color: #3a3a3a !important;
+}
+
+.tooltip-list-item {
+    color: #fff !important;
+}
+
+.tooltip-list .tooltip-list-item {
+    border-bottom: 1px solid #6b6b6b !important;
+}
+
+.tooltip-list .tooltip-list-item:last-child {
+    border-bottom: 0 !important;
+}
+
+.tooltip-subscription-add:after {
+    border-color: #6b6b6b transparent !important;
+    bottom: -9px !important;
+}
+
+.tooltip-subscription-add {
+    border: 1px solid #6b6b6b !important;
+}
+
+.tooltip-list .tooltip-list-item:hover, .tooltip-subscription-add .tooltip-list-item.tooltip-list-input:hover {
+    background-color: #4c4a4a !important;
+}
+
+.tooltip-subscription-add .tooltip-list-item.tooltip-list-input input {
+    background-color: #565656 !important;
+    border: 1px solid #6b6b6b !important;
+    color: #fff !important;
+}
