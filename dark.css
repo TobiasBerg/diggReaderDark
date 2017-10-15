@@ -166,3 +166,29 @@ input {
     border: 1px solid #6b6b6b !important;
     color: #fff !important;
 }
+
+/* Settings dropdown */
+.reader-nav .reader-nav-settings .reader-nav-tooltip li a {
+    background-color: #565656 !important;
+}
+
+.reader-nav .reader-nav-tooltip ul {
+    border: 1px solid #6b6b6b !important; 
+}
+
+.reader-nav .reader-nav-tooltip li a {
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+.reader-nav .reader-nav-tooltip li:first-child+li {
+    border-color: #6b6b6b transparent !important;
+}
+
+.reader-nav .reader-nav-settings .reader-nav-tooltip:before {
+    z-index: 99;
+}
+
+.reader-nav .reader-nav-tooltip:before {
+    border-color: #6b6b6b transparent !important;
+}
